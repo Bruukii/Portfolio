@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfólio de Gabriel, Desenvolvedor Web e Designer." />
+    <meta name="keywords" content="Desenvolvedor Web, Designer, HTML, CSS, JavaScript" />
+    <meta name="author" content="Gabriel" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    
+    <title>Portfolio Responsivo</title>
+  </head>
+  <body>
+    <!--INFO: barra de navegação-->
+    <nav aria-label="Menu de Navegação">
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration = "1500">
+          <span>Gabriel</span>
+        </div>
+        <div class="links">
+          <div class="link" data-aos="fade-up" data-aos-duration = "1500" data-aos-delay="100"><a href="#home">Home</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration = "1500" data-aos-delay="200"><a href="#sobre">Sobre Mim</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration = "1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration = "1500" data-aos-delay="400"><a href="#serviços">Serviços</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration = "1500" data-aos-delay="500"><a href="#contato">Contatos</a></div>
+        </div>
+      </div>
+      <i class="fa-solid fa-bars hamburg" aria-label="Abrir menu" onclick="hamburg()"></i>
+      <div class="dropdown">
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#sobre">Sobre Mim</a>
+          <a href="#skills">Skills</a>
+          <a href="#serviços">Serviços</a>
+          <a href="#contato">Contatos</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="main-container">
+        <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+          <img src="main.jpg" alt="Foto Principal" />
+        </div>
+        <div class="content">
+          <h1 data-aos="fade-left" data-aos-duration = "1500" data-aos-delay="700">Oi eu sou <span>Gabriel</span></h1>
+          <div class="typewriter" data-aos="fade-right"data-aos-duration = "1500" data-aos-delay="900">Sou um <span class="typewriter-text"></span> <label for=""></label> </div>
+          <p data-aos="flip-down" data-aos-duration = "1500" data-aos-delay="1100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, deleniti!</p>
+          <div class="social-links"> 
+            <a href="https://github.com/Bruukii" target="_blank"  data-aos="fade-up"data-aos-duration = "1500" data-aos-delay="1300"> <i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/gabriel-llim/" target="_blank" data-aos="fade-up"data-aos-duration = "1500" data-aos-delay="1400"> <i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/gabriel_llim/" target="_blank" data-aos="fade-up"data-aos-duration = "1500" data-aos-delay="1500"> <i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="btn" data-aos="zoom-in" data-aos="fade-up"data-aos-duration = "1500" data-aos-delay="1600"><button>Me Contrate</button></div>
+        </div>
+      </div>
+    </section>
+  
+
+
+
+
+  
+    <!--INFO: INICIO-->
+    <section class="sobre" id="sobre">
+      <div class="conteudo">
+        <div class="titulo" data-aos="fade-up" data-aos-duration="1500"> <span>Sobre Mim</span></div>
+        <div class="sobremim-detalhes">
+          <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200"> <img src="main.jpg" alt="Minha Foto"></div>
+          <div class="right">
+            <div class="topico" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Desenhar é minha paixão</div>
+            <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime repellendus quos facere qui fugit ipsum impedit sunt architecto a accusamus magnam placeat quidem error sapiente nisi, id expedita esse iusto. ipsum dolor sit amet consectetur adipisicing elit. Quos, iure!</p>
+            <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400"> <button>Download Currículo</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--INFO: Habilidades-->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="titulo"data-aos="fade-up" data-aos-duration="1200"> <span> Perícias</span></div>
+        <div class="skills-details">
+          <div class="texto">
+            <div class="topico"data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200"> Perícia Reflete Nosso Conhecimento</div>
+            <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolor nulla eaque, doloremque dignissimos recusandae unde incidunt atque laboriosam culpa accusantium necessitatibus cumque quia iure harum ex delectus ipsam cupiditate. ipsum dolor sit amet consectetur adipisicing elit. Odit, aut?</p>
+            <div class="experiencia" data-aos-duration="1200" data-aos-delay="600">
+              <div class="num" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="800">2</div>
+              <div class="exp" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="800">Anos de <br /> Experiencia</div>
+            </div>
+            <div class="boxes">
+              <div class="box">
+                <div class="topico" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</div>
+                <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
+              </div>
+              <div class="box">
+                <div class="topico"data-aos="fade-left" data-aos-duration="1200" data-aos-delay="150">CSS</div>
+                <div class="per"data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">85%</div>
+              </div>   
+              <div class="box">
+                <div class="topico"data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">JavaScript</div>
+                <div class="per"data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">70%</div>
+              </div>
+              <div class="box">
+                <div class="topico"data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450">Python</div>
+                <div class="per"data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">50%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--INFO: Serviços-->
+    <section class="serviços" id="serviços">
+      <div class="content">
+        <div class="titulo" data-aos="fade-up" data-aos-duration="1200"> <span> Meus Serviços</span></div>
+        <div class="boxes">
+          <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Desenvolvedor Web</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempora vero non, similique ducimus unde porro illo iste, accusantium quo blanditiis ipsam debitis perspiciatis placeat nam quia? Perspiciatis, excepturi. Aliquid! ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, nihil!</p>
+          </div>
+          <div class="box"data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+            <div class="icon">
+              <i class="fas fa-tablet-alt"></i>
+            </div>
+            <div class="topic">Desenvolvedor de Aplicativos</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore qui ea libero recusandae voluptas nisi sequi ex aperiam minima quo saepe nihil laboriosam, doloribus omnis harum delectus dolore quas quasi reprehenderit consequuntur eius veniam? Corrupti laudantium consectetur consequuntur! In corrupti perferendis earum enim eius obcaecati, dignissimos id quam praesentium exercitationem. ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, nihil!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--INFO: Me Contate-->
+    <section class="contato" id="contato">
+      <div class="content">
+        <div class="titulo"data-aos="fade-up" data-aos-duration="1500"> <span>Me Contate</span></div>
+        <div class="texto">
+          <div class="topico"data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"> Tem Algum Projeto?</div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, aliquid?</p>
+          <div class="button"data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"> <button>Vamos Conversar</button></div>
+        </div>
+      </div>
+    </section>
+
+    <!--INFO: Footer-->
+    <footer>
+      <div class="text"> <span> Criador por <a href="#">Brook</a> &#169: 2024 Todos os Direitos Reservados</span></div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

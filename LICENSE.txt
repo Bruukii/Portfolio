@@ -1,0 +1,5 @@
+This project uses Font Awesome Free 6.5.2 for icons. Licensed under:
+- Icons: CC BY 4.0 (https://fontawesome.com/license/free)
+- Fonts: SIL OFL 1.1
+- Code: MIT License
+Copyright 2024 Fonticons, Inc.
